@@ -22,7 +22,7 @@ public class TestBase {
         Configuration.browserCapabilities = capabilities;
         Configuration.startMaximized = true;
         Configuration.remote = format("https://%s:%s@%s", login, password, browser);
-        Configuration.baseUrl = "https://www.ozon.ru/";
+        Configuration.baseUrl = "https://www.jetbrains.com/";
         Configuration.startMaximized = true;
     }
 

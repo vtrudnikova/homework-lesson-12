@@ -21,10 +21,10 @@ public class OzonTests extends TestBase {
     @DisplayName("Проверка страницы Войти")
     void openPageLogin() {
         startPage.openPage();
-        startPage.openPageLogin();
-        startPage.checkTitle();
+       // startPage.openPageLogin();
+      //  startPage.checkTitle();
     }
-
+/*
     @Test()
     @DisplayName("Поиск товаров")
     void searchProducts() {
@@ -66,5 +66,5 @@ public class OzonTests extends TestBase {
         startPage.checkResultsSearch();
 
         Selenide.sleep(5000);
-    }
+    }*/
 }

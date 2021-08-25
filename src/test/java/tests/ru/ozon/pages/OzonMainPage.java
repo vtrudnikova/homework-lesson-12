@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class OzonMainPage {
     @Step("Открыть главную страницу сайта")
     public void openPage() {
-        open("https://www.ozon.ru/");
+        open("https://www.jetbrains.com/");
     }
 
     @Step("Перейти на вкладку Войти")
